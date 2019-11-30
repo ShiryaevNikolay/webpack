@@ -1,0 +1,14 @@
+extends ../layout/main
+
+block variables
+    - var title = 'Webpack + Pug';
+    - var description = 'description for Webpack + Pug';
+    - var pageClass = 'index-page';
+
+block content
+    section
+        .container
+            +item('item title', 'item description')
+            +item('item title', 'item description')
+            +item('item title', 'item description')
+            example-component
