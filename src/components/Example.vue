@@ -14,7 +14,7 @@ export default {
         }
     },
     created () {
-        this.message = 'hellow component'
+        this.message = this.$store.getters.getMessage
     }
 }
 </script>
